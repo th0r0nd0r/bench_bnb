@@ -4,7 +4,6 @@ import merge from 'lodash/merge';
 const defaultState = Object.freeze({
   currentUser: null
 });
-debugger;
 
 const sessionReducer = (state = defaultState, action) => {
   Object.freeze(state);
